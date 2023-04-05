@@ -1,3 +1,5 @@
+"use strict"
+
 function Flights() {
   function calculateNumberOfFlights(passengers, capacity) {
     if (passengers < 0 || !Number.isInteger(passengers)) {

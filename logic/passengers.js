@@ -1,3 +1,5 @@
+"use strict"
+
 function Passengers() {
   function checkFlightCapacity(capacity, passengerNums) {
     let total = passengerNums.reduce((sum = 0, num) => sum += num);
